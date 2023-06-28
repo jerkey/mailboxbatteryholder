@@ -23,7 +23,7 @@ difference() {
 }
 
 module overallshape() {
-    color("YELLOW") cube([PRINTEDPARTWIDTH,BATTERYHEIGHT,BATTERYHEIGHT-10]);
+    color("YELLOW") cube([PRINTEDPARTWIDTH,BATTERYHEIGHT,BATTERYWIDTH+PRINTEDPARTSIDETHICKNESS]); // make whole thing only one battery width high (plus bottom wall thickness under battery)
 }
 
 module battery() {
