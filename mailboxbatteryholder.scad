@@ -1,4 +1,4 @@
-PRINTEDPARTSIDETHICKNESS=8; // how thick the sides are around the pole (and battery)
+PRINTEDPARTSIDETHICKNESS=3; // how thick the sides are around the pole (and battery)
 VERTICALSQUAREPOLEWIDTH=60.5;
 DIAGONALSQUAREPIECEWIDTH=32.3;
 PRINTEDPARTWIDTH=VERTICALSQUAREPOLEWIDTH + (PRINTEDPARTSIDETHICKNESS * 2); // how wide the whole thing is
